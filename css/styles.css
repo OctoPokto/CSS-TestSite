@@ -1,0 +1,133 @@
+body {
+  color: #40514e;
+  margin: 0px;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+}
+
+h1 {
+  color: #66bfbf;
+  margin: 50px auto 0 auto;
+  font-size: 5rem;
+  font-family: "Quicksand", sans-serif;
+}
+
+h2 {
+  color: #66bfbf;
+  font-family: "Oxanium", sans-serif;
+  font-weight: normal;
+  font-size: 2.5rem;
+  padding-bottom: 5px;
+}
+
+h3 {
+  font-family: "Oxanium", sans-serif;
+  color: #11999e;
+  margin: 0px;
+}
+
+p {
+  color: #40514e;
+  font-size: 1.1rem;
+  line-height: 2;
+}
+
+a {
+  color: #11999e;
+  margin: auto 10px;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+hr {
+  border-style: none;
+  border-bottom: 5px dotted #919e9e;
+  width: 5%;
+  margin: 50px auto;
+}
+
+.container-top {
+  background-color: azure;
+  position: relative;
+  padding-top: 100px;
+}
+.container-middle {
+  margin: 10px auto;
+}
+.container-bottom {
+  background: #66bfbf;
+  padding: 50px 0 20px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  top: 300px;
+}
+.about {
+  position: relative;
+  width: 50%;
+  margin: 50px auto;
+}
+
+.skill-row {
+  width: 40%;
+  margin: 50px auto;
+  text-align: left;
+  overflow: auto;
+}
+.contact-me {
+  position: relative;
+  width: 50%;
+  margin: 50px auto;
+}
+
+.portrait-img {
+  width: 20%;
+  margin: 20px auto;
+}
+.comp-img {
+  width: 20%;
+  float: left;
+  margin-right: 30px;
+}
+.chilli-img {
+  width: 20%;
+  float: right;
+  margin-left: 30px;
+}
+.button {
+  background: #66bfbf;
+  background-image: -webkit-linear-gradient(top, #66bfbf, #11999e);
+  background-image: -moz-linear-gradient(top, #66bfbf, #11999e);
+  background-image: -ms-linear-gradient(top, #66bfbf, #11999e);
+  background-image: -o-linear-gradient(top, #66bfbf, #11999e);
+  background-image: -webkit-gradient(to bottom, #66bfbf, #11999e);
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  color: #ffffff;
+  font-family: "Quicksand", sans-serif;
+  font-size: 30px;
+  font-weight: 100;
+  padding: 20px;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+}
+
+.button:hover {
+  background: #9fc0eb;
+  border: solid #000000 0;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  border-radius: 30px;
+  text-decoration: none;
+}
